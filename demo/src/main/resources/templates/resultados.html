@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- IMG Java Springboot -->
+        <img class="img-fluid" th:src="@{/img/blackhole.jpg}" alt=""> 
+    
+    <!-- Form Submit Springboot -->
+
+        <form action="/submitForm" method="post"  >
+        <label for="client">Client</label><br>   
+            <input type="text" name="client" id="client" required><br>
+        <label for="service">Service name</label><br>
+            <input type="text" name="service" id="service" required><br>
+        <label for="key">Product Key</label><br>
+            <input type="number" name="key" id="key"><br>
+        <label for="model">Model</label><br>
+            <input type="text" name="model" id="model"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Form Submission Results -->
+
+    <h1>Form Submission Results</h1>
+    <p>Client: <span th:text="${client}"></span></p>
+    <p>Service: <span th:text="${service}"></span></p>
+    <p>Key: <span th:text="${key}"></span></p>
+    <p>Model: <span th:text="${model}"></span></p>
+    <a href="/">Go Back</a>
+</body>
+</html>

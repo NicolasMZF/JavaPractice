@@ -1,0 +1,21 @@
+body{
+    background: url('../img/EarthBackground.jpg');
+    background-size: cover;
+}
+
+#ContainerIndex{
+    margin-top: 20vh;
+}
+
+h2{
+    color: black;
+}
+
+.TitleContent p{
+    color: black;
+}
+
+#CardContainer {
+    margin-top: 60vh;
+}
+

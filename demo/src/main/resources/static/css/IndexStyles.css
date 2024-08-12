@@ -1,0 +1,17 @@
+body{
+    background: url('../img/IndexBackground.jpg');
+    background-size: cover;
+}
+
+#ContainerIndex{
+    margin-top: 20vh;
+}
+
+h2{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
